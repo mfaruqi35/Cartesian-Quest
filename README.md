@@ -43,8 +43,3 @@
 - Minggu 15-16:
   - Testing penuh di perangkat Android, pastikan kompatibilitas.
   - Finalisasi aset, optimasi, dan ekspor APK.
-
-**Tips Kolaborasi di GitHub:**
-- Lakukan commit secara rutin di setiap milestone.
-- Gunakan branch terpisah untuk fitur baru dan merge setelah diuji.
-- Koordinasi secara berkala untuk menghindari konflik kode.
