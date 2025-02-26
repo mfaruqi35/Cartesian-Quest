@@ -1,45 +1,79 @@
 # Cartesian Quest
 
-### Timeline Pengerjaan Game Android 2D - Godot (4 Bulan)
+## 📌 Tentang Game
+**Cartesian Quest** adalah game edukasi 2D berbasis Android yang dikembangkan menggunakan **Godot Engine**. Game ini mengajak pemain untuk menjelajahi dunia koordinat kartesius dengan mekanik berbasis puzzle dan navigasi grid. Pemain akan memecahkan tantangan dengan memahami posisi dan arah dalam sistem koordinat.
 
-**Bulan 1: Perencanaan dan Fondasi Dasar**
-- Minggu 1:
-  - Tentukan scope dan fitur utama (navigasi, interaksi, level, mekanik koordinat kartesius).
-  - Buat flowchart dan wireframe dasar untuk gameplay dan UI.
-- Minggu 2-3:
-  - Pelajari dasar-dasar Godot (Scene, Node, Input, Export ke Android).
-  - Implementasi sistem navigasi (atas, bawah, kiri, kanan – satu kali tekan).
-  - Tambahkan tombol interaksi.
-- Minggu 4:
-  - Buat sistem koordinat dan validasi gerakan pemain ke posisi tertentu.
-  - Bangun prototipe level 1 (gameplay dasar berjalan).
+## ⏳ Timeline Pengembangan (Minggu 1 - 16)
 
-**Bulan 2: Pengembangan Mekanik Inti dan Level Awal**
-- Minggu 5-6:
-  - Sempurnakan sistem input (blokir tekan-tahan).
-  - Tambah fitur instruksi koordinat (contoh: “Pergi ke (3,4)”).
-  - Implementasi deteksi kesalahan atau keberhasilan.
-- Minggu 7-8:
-  - Desain dan implementasi level 2-4 (tingkat kesulitan bertahap).
-  - Buat sistem transisi antar-level.
-  - Tambahkan visual dasar (sprite karakter bajak laut, peta koordinat).
+### 🏗️ **Bulan 1: Perencanaan dan Fondasi Dasar**
+#### **Minggu 1**
+- Menentukan scope dan fitur utama (navigasi, interaksi, level, mekanik koordinat kartesius).
+- Membuat flowchart dan wireframe dasar untuk gameplay serta UI.
 
-**Bulan 3: Level Lanjutan dan Polishing Gameplay**
-- Minggu 9-10:
-  - Desain dan bangun level 5-8 (tantangan lebih kompleks: jebakan, timer, atau musuh).
-  - Tambahkan animasi dasar (karakter bergerak, efek interaksi).
-- Minggu 11-12:
-  - Bangun level 9-10 (level paling sulit dengan variasi objektif).
-  - Optimalkan performa dan navigasi.
-  - Buat sistem penyimpanan progres pemain (level terakhir yang tercapai).
+#### **Minggu 2-3**
+- Mempelajari dasar-dasar Godot (Scene, Node, Input, Export ke Android).
+- Implementasi sistem navigasi dasar (bergerak atas, bawah, kiri, kanan).
+- Menambahkan tombol interaksi.
 
-**Bulan 4: Testing, Polishing, dan Finalisasi**
-- Minggu 13:
-  - Uji semua level, perbaiki bug (fokus di input dan koordinat).
-  - Tambah efek suara dasar (navigasi, keberhasilan, kegagalan).
-- Minggu 14:
-  - Buat menu utama (Mulai, Lanjutkan, Keluar).
-  - Tambahkan tutorial di level 1 untuk panduan pemain.
-- Minggu 15-16:
-  - Testing penuh di perangkat Android, pastikan kompatibilitas.
-  - Finalisasi aset, optimasi, dan ekspor APK.
+#### **Minggu 4**
+- Mengembangkan sistem koordinat dan validasi gerakan pemain.
+- Membangun prototipe level 1 dengan gameplay dasar yang bisa dimainkan.
+
+---
+### 🎮 **Bulan 2: Pengembangan Mekanik Inti dan Level Awal**
+#### **Minggu 5-6**
+- Menyempurnakan sistem input (menghindari spam tekan-tahan).
+- Menambahkan fitur instruksi koordinat (contoh: “Pergi ke (3,4)”).
+- Implementasi sistem deteksi kesalahan dan keberhasilan.
+
+#### **Minggu 7-8**
+- Mendesain dan mengembangkan level 2-4 dengan kesulitan bertahap.
+- Membangun sistem transisi antar-level.
+- Menambahkan elemen visual dasar (sprite karakter, peta koordinat).
+- **Presentasi proses pembuatan game untuk evaluasi perkembangan.**
+
+---
+### 🔥 **Bulan 3: Level Lanjutan dan Polishing Gameplay**
+#### **Minggu 9-10**
+- Mendesain dan mengimplementasikan level 5-8 (jebakan, timer, atau musuh).
+- Menambahkan animasi dasar (gerakan karakter, efek interaksi).
+
+#### **Minggu 11-12**
+- Membangun level 9-10 dengan tantangan lebih sulit.
+- Mengoptimalkan performa game dan sistem navigasi.
+- Implementasi sistem penyimpanan progres pemain (level terakhir yang dicapai).
+
+---
+### 🎯 **Bulan 4: Testing, Polishing, dan Finalisasi**
+#### **Minggu 13**
+- Melakukan pengujian menyeluruh dan perbaikan bug (fokus pada input dan koordinat).
+- Menambahkan efek suara dasar (navigasi, keberhasilan, kegagalan).
+
+#### **Minggu 14**
+- Mendesain dan mengimplementasikan menu utama (Mulai, Lanjutkan, Keluar).
+- Menambahkan tutorial di level 1 sebagai panduan pemain.
+
+#### **Minggu 15-16**
+- Melakukan testing penuh di perangkat Android untuk memastikan kompatibilitas.
+- Finalisasi aset, optimasi performa, dan ekspor APK.
+
+---
+## 🔥 Teknologi yang Digunakan
+- **Engine**: Godot 4
+- **Bahasa Pemrograman**: C
+- **Platform Target**: Android
+- **Asset**: Sprite berbasis pixel art, efek suara custom
+
+## 📌 Status Saat Ini
+✅ Perencanaan selesai<br>
+✅ Fondasi dasar sudah dibangun<br>
+🚧 Pengembangan level dan fitur sedang berlangsung<br>
+🛠️ Polishing dan testing dijadwalkan pada akhir timeline
+
+## 🎯 Tujuan Akhir
+- Game edukasi berbasis koordinat kartesius yang interaktif dan menarik.
+- Gameplay sederhana namun menantang dengan berbagai level.
+- Bisa dimainkan di perangkat Android dengan performa optimal.
+
+Tetap pantau perkembangan **Cartesian Quest**! 🚀
+
